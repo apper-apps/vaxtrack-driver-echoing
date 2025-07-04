@@ -1,0 +1,334 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Toast customization */
+.Toastify__toast-container {
+  width: 320px;
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  min-height: 64px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #16a34a 0%, #059669 100%);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  color: white;
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #0ea5e9 0%, #0891b2 100%);
+  color: white;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Shimmer effect for skeleton loading */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.skeleton {
+  animation: shimmer 2s infinite;
+  background: linear-gradient(90deg, #f1f5f9 0px, #e2e8f0 40px, #f1f5f9 80px);
+  background-size: 200px 100%;
+}
+
+/* Clinical data table styling */
+.clinical-table {
+  @apply bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden;
+}
+
+.clinical-table th {
+  @apply bg-gradient-to-r from-slate-50 to-slate-100 text-slate-700 font-semibold text-sm uppercase tracking-wider px-6 py-4 border-b border-slate-200;
+}
+
+.clinical-table td {
+  @apply px-6 py-4 text-sm text-slate-800 border-b border-slate-100;
+}
+
+.clinical-table tr:hover {
+  @apply bg-slate-50 transition-colors duration-200;
+}
+
+.clinical-table tr:last-child td {
+  @apply border-b-0;
+}
+
+/* Status badges */
+.status-badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+}
+
+.status-badge.ok {
+  @apply bg-success-100 text-success-800;
+}
+
+.status-badge.expiring {
+  @apply bg-warning-100 text-warning-800;
+}
+
+.status-badge.expired {
+  @apply bg-error-100 text-error-800;
+}
+
+.status-badge.low-stock {
+  @apply bg-accent-100 text-accent-800;
+}
+
+/* Metric cards */
+.metric-card {
+  @apply bg-white rounded-xl shadow-sm border border-slate-200 p-6 transition-all duration-200 hover:shadow-md hover:scale-[1.01];
+}
+
+.metric-card .metric-value {
+  @apply text-3xl font-bold bg-gradient-to-r from-primary-600 to-primary-700 bg-clip-text text-transparent;
+}
+
+.metric-card .metric-label {
+  @apply text-sm font-medium text-slate-600 uppercase tracking-wide;
+}
+
+/* Form styling */
+.form-group {
+  @apply mb-6;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-slate-700 mb-2;
+}
+
+.form-input {
+  @apply w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200;
+}
+
+.form-input:focus {
+  @apply outline-none shadow-sm;
+}
+
+.form-textarea {
+  @apply w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200 resize-vertical;
+}
+
+.form-select {
+  @apply w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200 bg-white;
+}
+
+/* Button variants */
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-primary-600 to-primary-700 text-white hover:from-primary-700 hover:to-primary-800 focus:ring-primary-500 shadow-sm hover:shadow-md;
+}
+
+.btn-secondary {
+  @apply bg-gradient-to-r from-secondary-600 to-secondary-700 text-white hover:from-secondary-700 hover:to-secondary-800 focus:ring-secondary-500 shadow-sm hover:shadow-md;
+}
+
+.btn-outline {
+  @apply border-slate-300 text-slate-700 bg-white hover:bg-slate-50 focus:ring-slate-500;
+}
+
+.btn-success {
+  @apply bg-gradient-to-r from-success-600 to-success-700 text-white hover:from-success-700 hover:to-success-800 focus:ring-success-500 shadow-sm hover:shadow-md;
+}
+
+.btn-warning {
+  @apply bg-gradient-to-r from-warning-600 to-warning-700 text-white hover:from-warning-700 hover:to-warning-800 focus:ring-warning-500 shadow-sm hover:shadow-md;
+}
+
+.btn-error {
+  @apply bg-gradient-to-r from-error-600 to-error-700 text-white hover:from-error-700 hover:to-error-800 focus:ring-error-500 shadow-sm hover:shadow-md;
+}
+
+.btn-lg {
+  @apply px-6 py-3 text-base;
+}
+
+.btn-sm {
+  @apply px-3 py-1.5 text-xs;
+}
+
+/* Alert styling */
+.alert {
+  @apply p-4 rounded-lg border-l-4 mb-4;
+}
+
+.alert-success {
+  @apply bg-success-50 border-success-400 text-success-800;
+}
+
+.alert-warning {
+  @apply bg-warning-50 border-warning-400 text-warning-800;
+}
+
+.alert-error {
+  @apply bg-error-50 border-error-400 text-error-800;
+}
+
+.alert-info {
+  @apply bg-blue-50 border-blue-400 text-blue-800;
+}
+
+/* Navigation tab styling */
+.nav-tab {
+  @apply px-6 py-3 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-lg transition-colors duration-200;
+}
+
+.nav-tab.active {
+  @apply text-primary-600 bg-primary-50 border-b-2 border-primary-600;
+}
+
+/* Responsive utilities */
+.container-fluid {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section-header {
+  @apply flex items-center justify-between mb-6;
+}
+
+.section-title {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.section-subtitle {
+  @apply text-slate-600 mt-1;
+}
+
+/* Quick action buttons */
+.quick-action {
+  @apply bg-white rounded-xl shadow-sm border border-slate-200 p-6 transition-all duration-200 hover:shadow-md hover:scale-[1.02] cursor-pointer;
+}
+
+.quick-action:hover {
+  @apply border-primary-300;
+}
+
+.quick-action-icon {
+  @apply w-12 h-12 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center mb-4;
+}
+
+.quick-action-title {
+  @apply text-lg font-semibold text-slate-900 mb-2;
+}
+
+.quick-action-description {
+  @apply text-sm text-slate-600;
+}
+
+/* Data table enhancements */
+.data-table-container {
+  @apply overflow-x-auto;
+}
+
+.data-table {
+  @apply min-w-full clinical-table;
+}
+
+.data-table-header {
+  @apply bg-gradient-to-r from-slate-50 to-slate-100;
+}
+
+.data-table-cell {
+  @apply px-6 py-4 whitespace-nowrap text-sm;
+}
+
+.data-table-cell.numeric {
+  @apply text-right font-mono;
+}
+
+.data-table-cell.center {
+  @apply text-center;
+}
+
+/* Empty state styling */
+.empty-state {
+  @apply text-center py-12;
+}
+
+.empty-state-icon {
+  @apply w-16 h-16 mx-auto mb-4 text-slate-400;
+}
+
+.empty-state-title {
+  @apply text-lg font-semibold text-slate-900 mb-2;
+}
+
+.empty-state-description {
+  @apply text-slate-600 mb-6;
+}
+
+/* Loading state */
+.loading-container {
+  @apply animate-pulse;
+}
+
+.loading-card {
+  @apply bg-slate-200 rounded-xl h-32 mb-4;
+}
+
+.loading-table-row {
+  @apply h-12 bg-slate-100 rounded mb-2;
+}
+
+.loading-text {
+  @apply h-4 bg-slate-200 rounded mb-2;
+}
+
+.loading-text.w-3-4 {
+  @apply w-3/4;
+}
+
+.loading-text.w-1-2 {
+  @apply w-1/2;
+}
+
+.loading-text.w-1-4 {
+  @apply w-1/4;
+}

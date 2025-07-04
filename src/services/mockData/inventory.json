@@ -1,0 +1,152 @@
+[
+  {
+    "Id": 1,
+    "vaccineId": "1",
+    "commercialName": "Pfizer-BioNTech COVID-19",
+    "genericName": "COVID-19 mRNA Vaccine",
+    "lotNumber": "PF001234",
+    "expirationDate": "2024-12-15",
+    "quantityOnHand": 145,
+    "receivedDate": "2024-01-15"
+  },
+  {
+    "Id": 2,
+    "vaccineId": "1",
+    "commercialName": "Pfizer-BioNTech COVID-19",
+    "genericName": "COVID-19 mRNA Vaccine",
+    "lotNumber": "PF001235",
+    "expirationDate": "2024-06-30",
+    "quantityOnHand": 73,
+    "receivedDate": "2024-01-20"
+  },
+  {
+    "Id": 3,
+    "vaccineId": "2",
+    "commercialName": "Moderna COVID-19",
+    "genericName": "COVID-19 mRNA Vaccine",
+    "lotNumber": "MD002456",
+    "expirationDate": "2024-11-22",
+    "quantityOnHand": 89,
+    "receivedDate": "2024-01-25"
+  },
+  {
+    "Id": 4,
+    "vaccineId": "2",
+    "commercialName": "Moderna COVID-19",
+    "genericName": "COVID-19 mRNA Vaccine",
+    "lotNumber": "MD002457",
+    "expirationDate": "2024-05-15",
+    "quantityOnHand": 32,
+    "receivedDate": "2024-02-01"
+  },
+  {
+    "Id": 5,
+    "vaccineId": "3",
+    "commercialName": "Johnson & Johnson COVID-19",
+    "genericName": "COVID-19 Viral Vector Vaccine",
+    "lotNumber": "JJ003789",
+    "expirationDate": "2024-09-10",
+    "quantityOnHand": 25,
+    "receivedDate": "2024-02-05"
+  },
+  {
+    "Id": 6,
+    "vaccineId": "4",
+    "commercialName": "Fluzone Quadrivalent",
+    "genericName": "Influenza Vaccine",
+    "lotNumber": "FZ004123",
+    "expirationDate": "2024-08-30",
+    "quantityOnHand": 156,
+    "receivedDate": "2024-02-10"
+  },
+  {
+    "Id": 7,
+    "vaccineId": "4",
+    "commercialName": "Fluzone Quadrivalent",
+    "genericName": "Influenza Vaccine",
+    "lotNumber": "FZ004124",
+    "expirationDate": "2024-07-15",
+    "quantityOnHand": 92,
+    "receivedDate": "2024-02-15"
+  },
+  {
+    "Id": 8,
+    "vaccineId": "5",
+    "commercialName": "FluMist Quadrivalent",
+    "genericName": "Influenza Vaccine (Live)",
+    "lotNumber": "FM005678",
+    "expirationDate": "2024-10-20",
+    "quantityOnHand": 67,
+    "receivedDate": "2024-02-20"
+  },
+  {
+    "Id": 9,
+    "vaccineId": "6",
+    "commercialName": "Hepatitis B Adult",
+    "genericName": "Hepatitis B Vaccine",
+    "lotNumber": "HB006901",
+    "expirationDate": "2025-01-30",
+    "quantityOnHand": 45,
+    "receivedDate": "2024-02-25"
+  },
+  {
+    "Id": 10,
+    "vaccineId": "7",
+    "commercialName": "Tdap (Boostrix)",
+    "genericName": "Tetanus, Diphtheria, Pertussis Vaccine",
+    "lotNumber": "TD007234",
+    "expirationDate": "2024-12-05",
+    "quantityOnHand": 38,
+    "receivedDate": "2024-03-01"
+  },
+  {
+    "Id": 11,
+    "vaccineId": "8",
+    "commercialName": "MMR (M-M-R II)",
+    "genericName": "Measles, Mumps, Rubella Vaccine",
+    "lotNumber": "MM008567",
+    "expirationDate": "2024-09-25",
+    "quantityOnHand": 22,
+    "receivedDate": "2024-03-05"
+  },
+  {
+    "Id": 12,
+    "vaccineId": "9",
+    "commercialName": "Varicella (Varivax)",
+    "genericName": "Chickenpox Vaccine",
+    "lotNumber": "VR009890",
+    "expirationDate": "2024-11-12",
+    "quantityOnHand": 18,
+    "receivedDate": "2024-03-10"
+  },
+  {
+    "Id": 13,
+    "vaccineId": "10",
+    "commercialName": "Shingrix",
+    "genericName": "Zoster Vaccine",
+    "lotNumber": "SH010123",
+    "expirationDate": "2024-08-18",
+    "quantityOnHand": 29,
+    "receivedDate": "2024-03-15"
+  },
+  {
+    "Id": 14,
+    "vaccineId": "1",
+    "commercialName": "Pfizer-BioNTech COVID-19",
+    "genericName": "COVID-19 mRNA Vaccine",
+    "lotNumber": "PF001236",
+    "expirationDate": "2024-04-10",
+    "quantityOnHand": 8,
+    "receivedDate": "2024-03-20"
+  },
+  {
+    "Id": 15,
+    "vaccineId": "4",
+    "commercialName": "Fluzone Quadrivalent",
+    "genericName": "Influenza Vaccine",
+    "lotNumber": "FZ004125",
+    "expirationDate": "2024-06-05",
+    "quantityOnHand": 5,
+    "receivedDate": "2024-03-25"
+  }
+]

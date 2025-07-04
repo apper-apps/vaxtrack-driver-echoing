@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "commercialName": "Pfizer-BioNTech COVID-19",
+    "genericName": "COVID-19 mRNA Vaccine",
+    "family": "COVID-19",
+    "alertThreshold": 50
+  },
+  {
+    "Id": 2,
+    "commercialName": "Moderna COVID-19",
+    "genericName": "COVID-19 mRNA Vaccine",
+    "family": "COVID-19",
+    "alertThreshold": 50
+  },
+  {
+    "Id": 3,
+    "commercialName": "Johnson & Johnson COVID-19",
+    "genericName": "COVID-19 Viral Vector Vaccine",
+    "family": "COVID-19",
+    "alertThreshold": 25
+  },
+  {
+    "Id": 4,
+    "commercialName": "Fluzone Quadrivalent",
+    "genericName": "Influenza Vaccine",
+    "family": "Influenza",
+    "alertThreshold": 100
+  },
+  {
+    "Id": 5,
+    "commercialName": "FluMist Quadrivalent",
+    "genericName": "Influenza Vaccine (Live)",
+    "family": "Influenza",
+    "alertThreshold": 75
+  },
+  {
+    "Id": 6,
+    "commercialName": "Hepatitis B Adult",
+    "genericName": "Hepatitis B Vaccine",
+    "family": "Hepatitis",
+    "alertThreshold": 30
+  },
+  {
+    "Id": 7,
+    "commercialName": "Tdap (Boostrix)",
+    "genericName": "Tetanus, Diphtheria, Pertussis Vaccine",
+    "family": "Tdap",
+    "alertThreshold": 25
+  },
+  {
+    "Id": 8,
+    "commercialName": "MMR (M-M-R II)",
+    "genericName": "Measles, Mumps, Rubella Vaccine",
+    "family": "MMR",
+    "alertThreshold": 20
+  },
+  {
+    "Id": 9,
+    "commercialName": "Varicella (Varivax)",
+    "genericName": "Chickenpox Vaccine",
+    "family": "Varicella",
+    "alertThreshold": 15
+  },
+  {
+    "Id": 10,
+    "commercialName": "Shingrix",
+    "genericName": "Zoster Vaccine",
+    "family": "Zoster",
+    "alertThreshold": 20
+  }
+]

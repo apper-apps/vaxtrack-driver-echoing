@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "vaccineId": "1",
+    "lotNumber": "PF001234",
+    "quantitySent": 150,
+    "quantityReceived": 150,
+    "dosesPassedInspection": 145,
+    "dosesFailedInspection": 5,
+    "discrepancyReason": "5 doses had temperature exposure during transport",
+    "receivedDate": "2024-01-15"
+  },
+  {
+    "Id": 2,
+    "vaccineId": "1",
+    "lotNumber": "PF001235",
+    "quantitySent": 75,
+    "quantityReceived": 75,
+    "dosesPassedInspection": 73,
+    "dosesFailedInspection": 2,
+    "discrepancyReason": "2 doses had compromised vial integrity",
+    "receivedDate": "2024-01-20"
+  },
+  {
+    "Id": 3,
+    "vaccineId": "2",
+    "lotNumber": "MD002456",
+    "quantitySent": 100,
+    "quantityReceived": 100,
+    "dosesPassedInspection": 89,
+    "dosesFailedInspection": 11,
+    "discrepancyReason": "11 doses exceeded temperature range",
+    "receivedDate": "2024-01-25"
+  },
+  {
+    "Id": 4,
+    "vaccineId": "2",
+    "lotNumber": "MD002457",
+    "quantitySent": 50,
+    "quantityReceived": 45,
+    "dosesPassedInspection": 32,
+    "dosesFailedInspection": 13,
+    "discrepancyReason": "5 doses missing from shipment, 13 doses had temperature exposure",
+    "receivedDate": "2024-02-01"
+  },
+  {
+    "Id": 5,
+    "vaccineId": "3",
+    "lotNumber": "JJ003789",
+    "quantitySent": 30,
+    "quantityReceived": 30,
+    "dosesPassedInspection": 25,
+    "dosesFailedInspection": 5,
+    "discrepancyReason": "5 doses had compromised packaging",
+    "receivedDate": "2024-02-05"
+  },
+  {
+    "Id": 6,
+    "vaccineId": "4",
+    "lotNumber": "FZ004123",
+    "quantitySent": 200,
+    "quantityReceived": 200,
+    "dosesPassedInspection": 156,
+    "dosesFailedInspection": 44,
+    "discrepancyReason": "44 doses had improper storage temperature",
+    "receivedDate": "2024-02-10"
+  },
+  {
+    "Id": 7,
+    "vaccineId": "4",
+    "lotNumber": "FZ004124",
+    "quantitySent": 100,
+    "quantityReceived": 100,
+    "dosesPassedInspection": 92,
+    "dosesFailedInspection": 8,
+    "discrepancyReason": "8 doses had manufacturing defects",
+    "receivedDate": "2024-02-15"
+  },
+  {
+    "Id": 8,
+    "vaccineId": "5",
+    "lotNumber": "FM005678",
+    "quantitySent": 75,
+    "quantityReceived": 75,
+    "dosesPassedInspection": 67,
+    "dosesFailedInspection": 8,
+    "discrepancyReason": "8 doses had damaged nasal spray applicators",
+    "receivedDate": "2024-02-20"
+  },
+  {
+    "Id": 9,
+    "vaccineId": "6",
+    "lotNumber": "HB006901",
+    "quantitySent": 50,
+    "quantityReceived": 50,
+    "dosesPassedInspection": 45,
+    "dosesFailedInspection": 5,
+    "discrepancyReason": "5 doses had precipitate formation",
+    "receivedDate": "2024-02-25"
+  },
+  {
+    "Id": 10,
+    "vaccineId": "7",
+    "lotNumber": "TD007234",
+    "quantitySent": 40,
+    "quantityReceived": 40,
+    "dosesPassedInspection": 38,
+    "dosesFailedInspection": 2,
+    "discrepancyReason": "2 doses had cracked vials",
+    "receivedDate": "2024-03-01"
+  }
+]
